@@ -54,7 +54,7 @@ void loop() {
 
   
   display.setTextColor(SH110X_WHITE);
-  display.setTextSize(2);
+  display.setTextSize(1.5);
   display.setCursor(15, 10);
   display.println("Temperatura");
 
