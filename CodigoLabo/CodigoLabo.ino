@@ -56,13 +56,13 @@ void loop() {
   display.setTextColor(SH110X_WHITE);
   display.setTextSize(1.5);
   display.setCursor(15, 10);
-  display.println("Temperatura");
+  display.println("Temperatura")  ;
 
     
   display.println(temperatura);
 
   
-  display.display();
+  display.display();      
 
   delay(2000);
 
